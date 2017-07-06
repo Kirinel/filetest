@@ -10,8 +10,8 @@ using namespace std;
 int main() {
     string name;
     string doc,tmplink,tmptit,tmppass;
-//    string pattern("http(s)?://([\\w-]+\\.)+[\\w-]+(/[\\w- ./?%&=]*)?");
-//    pattern = "[[:alpha:]]*" + pattern + "[[:alpha:]]*";
+    string pattern("http(s)?://([\\w-]+\\.)+[\\w-]+(/[\\w- ./?%&=]*)?");
+    pattern = "[[:alpha:]]*" + pattern + "[[:alpha:]]*";
     ifstream infile;
     ofstream outfile("output.txt");
     list<string> link;
@@ -23,11 +23,9 @@ int main() {
     unsigned long pos1,pos2;
     unsigned long p1,p2;
     int count=0;
-    string pattern("http(s)?://([\\w-]+\\.)+[\\w-]+(/[\\w- ./?%&=]*)?");
-//    pattern = "[[:alpha:]]*" + pattern + "[[:alpha:]]*";
-    regex r(pattern);
+    regex r(pattern,regex_constants::collate);
 
-    name="/Users/yanchuanqi/ClionProjects/filetest/中国人民大学信息学院.webarchive";
+    name="/Users/yanchuanqi/ClionProjects/filetest/丘成桐.webarchive";
     infile.open(name);
     while (getline(infile,doc)) {
         if(doc.find("<!--")!=-1) continue;
@@ -72,19 +70,18 @@ int main() {
             //删除完毕
             if(tmppass.length()==0) continue;
             passage.push_back(tmppass);
-            count++;
         }
         //内容完
 
 
 //        //超链接
 
-//        for (sregex_iterator it(doc.begin(), doc.end(), r), end;     //end是尾后迭代器，regex_iterator是regex_iterator的string类型的版本
-//             it != end;
-//             ++it)
-//        {
-//            cout << it->str() << endl;
-//        }
+        for (sregex_iterator it(doc.begin(), doc.end(), r), end;
+             it != end;
+             ++it)
+        {
+            link.push_back(it->str());
+        }
 //        pos1=doc.find("href=\"");
 //        pos2=doc.find_first_of("\"",pos1 + 6);
 //        if(pos1 != -1) {
@@ -116,34 +113,34 @@ int main() {
 
 
     outfile<<"标题："<<endl;
-    cout<<"标题："<<endl;
+//    cout<<"标题："<<endl;
     for (titleIterator = title.begin(); titleIterator != title.end() ; titleIterator++) {
         outfile<<*titleIterator<<endl;
-        cout<<*titleIterator<<endl;
+//        cout<<*titleIterator<<endl;
 
     }
     outfile<<endl<<endl;
-    cout<<endl<<endl;
+//    cout<<endl<<endl;
 
     outfile<<"正文："<<endl;
-    cout<<"正文"<<endl;
+//    cout<<"正文"<<endl;
     for (passageIterator = passage.begin(); passageIterator != passage.end() ; passageIterator++) {
         outfile<<*passageIterator<<endl;
-        cout<<*passageIterator<<endl;
+//        cout<<*passageIterator<<endl;
     }
     outfile<<endl<<endl;
-    cout<<endl<<endl;
+//    cout<<endl<<endl;
 
     link.sort();
     link.unique();
     outfile<<"超链接地址："<<endl;
-    cout<<"超链接地址："<<endl;
+//    cout<<"超链接地址："<<endl;
     for (linkIterator = link.begin(); linkIterator != link.end() ; linkIterator++) {
         outfile<<*linkIterator<<endl;
-        cout<<*linkIterator<<endl;
+//        cout<<*linkIterator<<endl;
     }
     outfile<<endl<<endl;
-    cout<<endl<<endl;
+//    cout<<endl<<endl;
 
     infile.close();
 
