@@ -7,6 +7,32 @@
 #include <algorithm>
 using namespace std;
 
+/**
+ *
+ * !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ *
+ * 看---------这-----------里
+ *
+ * 要把大象装冰箱，一共分3步
+ *
+ * 1. Web->String
+ * 2. String->Regex->String(Title Link Content)可以公用一个函数，通过改变入参Regex的
+ * 3. String->File
+ *
+ * 所以一共需要3个工具类
+ *
+ * 1. WebTool
+ * 2. RegexTool
+ * 3. WebTool
+ *
+ *
+ * 
+ *
+ *
+ * !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ *
+ */
+
 int main() {
     string name;
     string doc,tmplink,tmptit,tmppass;

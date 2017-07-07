@@ -57,41 +57,119 @@ include CMakeFiles/filetest.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/filetest.dir/flags.make
 
-CMakeFiles/filetest.dir/main.cpp.o: CMakeFiles/filetest.dir/flags.make
-CMakeFiles/filetest.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhuojia/Documents/Code/filetest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/filetest.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/filetest.dir/main.cpp.o -c /Users/zhuojia/Documents/Code/filetest/main.cpp
+CMakeFiles/filetest.dir/Class/main.cpp.o: CMakeFiles/filetest.dir/flags.make
+CMakeFiles/filetest.dir/Class/main.cpp.o: ../Class/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhuojia/Documents/Code/filetest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/filetest.dir/Class/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/filetest.dir/Class/main.cpp.o -c /Users/zhuojia/Documents/Code/filetest/Class/main.cpp
 
-CMakeFiles/filetest.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/filetest.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhuojia/Documents/Code/filetest/main.cpp > CMakeFiles/filetest.dir/main.cpp.i
+CMakeFiles/filetest.dir/Class/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/filetest.dir/Class/main.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhuojia/Documents/Code/filetest/Class/main.cpp > CMakeFiles/filetest.dir/Class/main.cpp.i
 
-CMakeFiles/filetest.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/filetest.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhuojia/Documents/Code/filetest/main.cpp -o CMakeFiles/filetest.dir/main.cpp.s
+CMakeFiles/filetest.dir/Class/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/filetest.dir/Class/main.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhuojia/Documents/Code/filetest/Class/main.cpp -o CMakeFiles/filetest.dir/Class/main.cpp.s
 
-CMakeFiles/filetest.dir/main.cpp.o.requires:
+CMakeFiles/filetest.dir/Class/main.cpp.o.requires:
 
-.PHONY : CMakeFiles/filetest.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/filetest.dir/Class/main.cpp.o.requires
 
-CMakeFiles/filetest.dir/main.cpp.o.provides: CMakeFiles/filetest.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/filetest.dir/build.make CMakeFiles/filetest.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/filetest.dir/main.cpp.o.provides
+CMakeFiles/filetest.dir/Class/main.cpp.o.provides: CMakeFiles/filetest.dir/Class/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/filetest.dir/build.make CMakeFiles/filetest.dir/Class/main.cpp.o.provides.build
+.PHONY : CMakeFiles/filetest.dir/Class/main.cpp.o.provides
 
-CMakeFiles/filetest.dir/main.cpp.o.provides.build: CMakeFiles/filetest.dir/main.cpp.o
+CMakeFiles/filetest.dir/Class/main.cpp.o.provides.build: CMakeFiles/filetest.dir/Class/main.cpp.o
+
+
+CMakeFiles/filetest.dir/Class/FileTool/FileTool.cpp.o: CMakeFiles/filetest.dir/flags.make
+CMakeFiles/filetest.dir/Class/FileTool/FileTool.cpp.o: ../Class/FileTool/FileTool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhuojia/Documents/Code/filetest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/filetest.dir/Class/FileTool/FileTool.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/filetest.dir/Class/FileTool/FileTool.cpp.o -c /Users/zhuojia/Documents/Code/filetest/Class/FileTool/FileTool.cpp
+
+CMakeFiles/filetest.dir/Class/FileTool/FileTool.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/filetest.dir/Class/FileTool/FileTool.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhuojia/Documents/Code/filetest/Class/FileTool/FileTool.cpp > CMakeFiles/filetest.dir/Class/FileTool/FileTool.cpp.i
+
+CMakeFiles/filetest.dir/Class/FileTool/FileTool.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/filetest.dir/Class/FileTool/FileTool.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhuojia/Documents/Code/filetest/Class/FileTool/FileTool.cpp -o CMakeFiles/filetest.dir/Class/FileTool/FileTool.cpp.s
+
+CMakeFiles/filetest.dir/Class/FileTool/FileTool.cpp.o.requires:
+
+.PHONY : CMakeFiles/filetest.dir/Class/FileTool/FileTool.cpp.o.requires
+
+CMakeFiles/filetest.dir/Class/FileTool/FileTool.cpp.o.provides: CMakeFiles/filetest.dir/Class/FileTool/FileTool.cpp.o.requires
+	$(MAKE) -f CMakeFiles/filetest.dir/build.make CMakeFiles/filetest.dir/Class/FileTool/FileTool.cpp.o.provides.build
+.PHONY : CMakeFiles/filetest.dir/Class/FileTool/FileTool.cpp.o.provides
+
+CMakeFiles/filetest.dir/Class/FileTool/FileTool.cpp.o.provides.build: CMakeFiles/filetest.dir/Class/FileTool/FileTool.cpp.o
+
+
+CMakeFiles/filetest.dir/Class/RegexTool/RegexTool.cpp.o: CMakeFiles/filetest.dir/flags.make
+CMakeFiles/filetest.dir/Class/RegexTool/RegexTool.cpp.o: ../Class/RegexTool/RegexTool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhuojia/Documents/Code/filetest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/filetest.dir/Class/RegexTool/RegexTool.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/filetest.dir/Class/RegexTool/RegexTool.cpp.o -c /Users/zhuojia/Documents/Code/filetest/Class/RegexTool/RegexTool.cpp
+
+CMakeFiles/filetest.dir/Class/RegexTool/RegexTool.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/filetest.dir/Class/RegexTool/RegexTool.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhuojia/Documents/Code/filetest/Class/RegexTool/RegexTool.cpp > CMakeFiles/filetest.dir/Class/RegexTool/RegexTool.cpp.i
+
+CMakeFiles/filetest.dir/Class/RegexTool/RegexTool.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/filetest.dir/Class/RegexTool/RegexTool.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhuojia/Documents/Code/filetest/Class/RegexTool/RegexTool.cpp -o CMakeFiles/filetest.dir/Class/RegexTool/RegexTool.cpp.s
+
+CMakeFiles/filetest.dir/Class/RegexTool/RegexTool.cpp.o.requires:
+
+.PHONY : CMakeFiles/filetest.dir/Class/RegexTool/RegexTool.cpp.o.requires
+
+CMakeFiles/filetest.dir/Class/RegexTool/RegexTool.cpp.o.provides: CMakeFiles/filetest.dir/Class/RegexTool/RegexTool.cpp.o.requires
+	$(MAKE) -f CMakeFiles/filetest.dir/build.make CMakeFiles/filetest.dir/Class/RegexTool/RegexTool.cpp.o.provides.build
+.PHONY : CMakeFiles/filetest.dir/Class/RegexTool/RegexTool.cpp.o.provides
+
+CMakeFiles/filetest.dir/Class/RegexTool/RegexTool.cpp.o.provides.build: CMakeFiles/filetest.dir/Class/RegexTool/RegexTool.cpp.o
+
+
+CMakeFiles/filetest.dir/Class/WebTool/WebTool.cpp.o: CMakeFiles/filetest.dir/flags.make
+CMakeFiles/filetest.dir/Class/WebTool/WebTool.cpp.o: ../Class/WebTool/WebTool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhuojia/Documents/Code/filetest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/filetest.dir/Class/WebTool/WebTool.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/filetest.dir/Class/WebTool/WebTool.cpp.o -c /Users/zhuojia/Documents/Code/filetest/Class/WebTool/WebTool.cpp
+
+CMakeFiles/filetest.dir/Class/WebTool/WebTool.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/filetest.dir/Class/WebTool/WebTool.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhuojia/Documents/Code/filetest/Class/WebTool/WebTool.cpp > CMakeFiles/filetest.dir/Class/WebTool/WebTool.cpp.i
+
+CMakeFiles/filetest.dir/Class/WebTool/WebTool.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/filetest.dir/Class/WebTool/WebTool.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhuojia/Documents/Code/filetest/Class/WebTool/WebTool.cpp -o CMakeFiles/filetest.dir/Class/WebTool/WebTool.cpp.s
+
+CMakeFiles/filetest.dir/Class/WebTool/WebTool.cpp.o.requires:
+
+.PHONY : CMakeFiles/filetest.dir/Class/WebTool/WebTool.cpp.o.requires
+
+CMakeFiles/filetest.dir/Class/WebTool/WebTool.cpp.o.provides: CMakeFiles/filetest.dir/Class/WebTool/WebTool.cpp.o.requires
+	$(MAKE) -f CMakeFiles/filetest.dir/build.make CMakeFiles/filetest.dir/Class/WebTool/WebTool.cpp.o.provides.build
+.PHONY : CMakeFiles/filetest.dir/Class/WebTool/WebTool.cpp.o.provides
+
+CMakeFiles/filetest.dir/Class/WebTool/WebTool.cpp.o.provides.build: CMakeFiles/filetest.dir/Class/WebTool/WebTool.cpp.o
 
 
 # Object files for target filetest
 filetest_OBJECTS = \
-"CMakeFiles/filetest.dir/main.cpp.o"
+"CMakeFiles/filetest.dir/Class/main.cpp.o" \
+"CMakeFiles/filetest.dir/Class/FileTool/FileTool.cpp.o" \
+"CMakeFiles/filetest.dir/Class/RegexTool/RegexTool.cpp.o" \
+"CMakeFiles/filetest.dir/Class/WebTool/WebTool.cpp.o"
 
 # External object files for target filetest
 filetest_EXTERNAL_OBJECTS =
 
-filetest: CMakeFiles/filetest.dir/main.cpp.o
+filetest: CMakeFiles/filetest.dir/Class/main.cpp.o
+filetest: CMakeFiles/filetest.dir/Class/FileTool/FileTool.cpp.o
+filetest: CMakeFiles/filetest.dir/Class/RegexTool/RegexTool.cpp.o
+filetest: CMakeFiles/filetest.dir/Class/WebTool/WebTool.cpp.o
 filetest: CMakeFiles/filetest.dir/build.make
 filetest: CMakeFiles/filetest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zhuojia/Documents/Code/filetest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable filetest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zhuojia/Documents/Code/filetest/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable filetest"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/filetest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -99,7 +177,10 @@ CMakeFiles/filetest.dir/build: filetest
 
 .PHONY : CMakeFiles/filetest.dir/build
 
-CMakeFiles/filetest.dir/requires: CMakeFiles/filetest.dir/main.cpp.o.requires
+CMakeFiles/filetest.dir/requires: CMakeFiles/filetest.dir/Class/main.cpp.o.requires
+CMakeFiles/filetest.dir/requires: CMakeFiles/filetest.dir/Class/FileTool/FileTool.cpp.o.requires
+CMakeFiles/filetest.dir/requires: CMakeFiles/filetest.dir/Class/RegexTool/RegexTool.cpp.o.requires
+CMakeFiles/filetest.dir/requires: CMakeFiles/filetest.dir/Class/WebTool/WebTool.cpp.o.requires
 
 .PHONY : CMakeFiles/filetest.dir/requires
 
