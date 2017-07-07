@@ -82,7 +82,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/zhuojia/Documents/Code/filetest/main.cpp">
+		<Unit filename="/Users/zhuojia/Documents/Code/filetest/Class/FileTool/FileTool.cpp">
+			<Option target="filetest"/>
+		</Unit>
+		<Unit filename="/Users/zhuojia/Documents/Code/filetest/Class/FileTool/FileTool.h">
+			<Option target="filetest"/>
+		</Unit>
+		<Unit filename="/Users/zhuojia/Documents/Code/filetest/Class/RegexTool/RegexTool.cpp">
+			<Option target="filetest"/>
+		</Unit>
+		<Unit filename="/Users/zhuojia/Documents/Code/filetest/Class/RegexTool/RegexTool.h">
+			<Option target="filetest"/>
+		</Unit>
+		<Unit filename="/Users/zhuojia/Documents/Code/filetest/Class/WebTool/WebTool.cpp">
+			<Option target="filetest"/>
+		</Unit>
+		<Unit filename="/Users/zhuojia/Documents/Code/filetest/Class/WebTool/WebTool.h">
+			<Option target="filetest"/>
+		</Unit>
+		<Unit filename="/Users/zhuojia/Documents/Code/filetest/Class/main.cpp">
 			<Option target="filetest"/>
 		</Unit>
 		<Unit filename="/Users/zhuojia/Documents/Code/filetest/CMakeLists.txt">

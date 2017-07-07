@@ -123,32 +123,113 @@ filetest/fast:
 	$(MAKE) -f CMakeFiles/filetest.dir/build.make CMakeFiles/filetest.dir/build
 .PHONY : filetest/fast
 
-main.o: main.cpp.o
+Class/FileTool/FileTool.o: Class/FileTool/FileTool.cpp.o
 
-.PHONY : main.o
+.PHONY : Class/FileTool/FileTool.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/filetest.dir/build.make CMakeFiles/filetest.dir/main.cpp.o
-.PHONY : main.cpp.o
+Class/FileTool/FileTool.cpp.o:
+	$(MAKE) -f CMakeFiles/filetest.dir/build.make CMakeFiles/filetest.dir/Class/FileTool/FileTool.cpp.o
+.PHONY : Class/FileTool/FileTool.cpp.o
 
-main.i: main.cpp.i
+Class/FileTool/FileTool.i: Class/FileTool/FileTool.cpp.i
 
-.PHONY : main.i
+.PHONY : Class/FileTool/FileTool.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/filetest.dir/build.make CMakeFiles/filetest.dir/main.cpp.i
-.PHONY : main.cpp.i
+Class/FileTool/FileTool.cpp.i:
+	$(MAKE) -f CMakeFiles/filetest.dir/build.make CMakeFiles/filetest.dir/Class/FileTool/FileTool.cpp.i
+.PHONY : Class/FileTool/FileTool.cpp.i
 
-main.s: main.cpp.s
+Class/FileTool/FileTool.s: Class/FileTool/FileTool.cpp.s
 
-.PHONY : main.s
+.PHONY : Class/FileTool/FileTool.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/filetest.dir/build.make CMakeFiles/filetest.dir/main.cpp.s
-.PHONY : main.cpp.s
+Class/FileTool/FileTool.cpp.s:
+	$(MAKE) -f CMakeFiles/filetest.dir/build.make CMakeFiles/filetest.dir/Class/FileTool/FileTool.cpp.s
+.PHONY : Class/FileTool/FileTool.cpp.s
+
+Class/RegexTool/RegexTool.o: Class/RegexTool/RegexTool.cpp.o
+
+.PHONY : Class/RegexTool/RegexTool.o
+
+# target to build an object file
+Class/RegexTool/RegexTool.cpp.o:
+	$(MAKE) -f CMakeFiles/filetest.dir/build.make CMakeFiles/filetest.dir/Class/RegexTool/RegexTool.cpp.o
+.PHONY : Class/RegexTool/RegexTool.cpp.o
+
+Class/RegexTool/RegexTool.i: Class/RegexTool/RegexTool.cpp.i
+
+.PHONY : Class/RegexTool/RegexTool.i
+
+# target to preprocess a source file
+Class/RegexTool/RegexTool.cpp.i:
+	$(MAKE) -f CMakeFiles/filetest.dir/build.make CMakeFiles/filetest.dir/Class/RegexTool/RegexTool.cpp.i
+.PHONY : Class/RegexTool/RegexTool.cpp.i
+
+Class/RegexTool/RegexTool.s: Class/RegexTool/RegexTool.cpp.s
+
+.PHONY : Class/RegexTool/RegexTool.s
+
+# target to generate assembly for a file
+Class/RegexTool/RegexTool.cpp.s:
+	$(MAKE) -f CMakeFiles/filetest.dir/build.make CMakeFiles/filetest.dir/Class/RegexTool/RegexTool.cpp.s
+.PHONY : Class/RegexTool/RegexTool.cpp.s
+
+Class/WebTool/WebTool.o: Class/WebTool/WebTool.cpp.o
+
+.PHONY : Class/WebTool/WebTool.o
+
+# target to build an object file
+Class/WebTool/WebTool.cpp.o:
+	$(MAKE) -f CMakeFiles/filetest.dir/build.make CMakeFiles/filetest.dir/Class/WebTool/WebTool.cpp.o
+.PHONY : Class/WebTool/WebTool.cpp.o
+
+Class/WebTool/WebTool.i: Class/WebTool/WebTool.cpp.i
+
+.PHONY : Class/WebTool/WebTool.i
+
+# target to preprocess a source file
+Class/WebTool/WebTool.cpp.i:
+	$(MAKE) -f CMakeFiles/filetest.dir/build.make CMakeFiles/filetest.dir/Class/WebTool/WebTool.cpp.i
+.PHONY : Class/WebTool/WebTool.cpp.i
+
+Class/WebTool/WebTool.s: Class/WebTool/WebTool.cpp.s
+
+.PHONY : Class/WebTool/WebTool.s
+
+# target to generate assembly for a file
+Class/WebTool/WebTool.cpp.s:
+	$(MAKE) -f CMakeFiles/filetest.dir/build.make CMakeFiles/filetest.dir/Class/WebTool/WebTool.cpp.s
+.PHONY : Class/WebTool/WebTool.cpp.s
+
+Class/main.o: Class/main.cpp.o
+
+.PHONY : Class/main.o
+
+# target to build an object file
+Class/main.cpp.o:
+	$(MAKE) -f CMakeFiles/filetest.dir/build.make CMakeFiles/filetest.dir/Class/main.cpp.o
+.PHONY : Class/main.cpp.o
+
+Class/main.i: Class/main.cpp.i
+
+.PHONY : Class/main.i
+
+# target to preprocess a source file
+Class/main.cpp.i:
+	$(MAKE) -f CMakeFiles/filetest.dir/build.make CMakeFiles/filetest.dir/Class/main.cpp.i
+.PHONY : Class/main.cpp.i
+
+Class/main.s: Class/main.cpp.s
+
+.PHONY : Class/main.s
+
+# target to generate assembly for a file
+Class/main.cpp.s:
+	$(MAKE) -f CMakeFiles/filetest.dir/build.make CMakeFiles/filetest.dir/Class/main.cpp.s
+.PHONY : Class/main.cpp.s
 
 # Help Target
 help:
@@ -159,9 +240,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... filetest"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Class/FileTool/FileTool.o"
+	@echo "... Class/FileTool/FileTool.i"
+	@echo "... Class/FileTool/FileTool.s"
+	@echo "... Class/RegexTool/RegexTool.o"
+	@echo "... Class/RegexTool/RegexTool.i"
+	@echo "... Class/RegexTool/RegexTool.s"
+	@echo "... Class/WebTool/WebTool.o"
+	@echo "... Class/WebTool/WebTool.i"
+	@echo "... Class/WebTool/WebTool.s"
+	@echo "... Class/main.o"
+	@echo "... Class/main.i"
+	@echo "... Class/main.s"
 .PHONY : help
 
 
